@@ -29,9 +29,15 @@ bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
 
 # Internal pages/posts to include in top navigation
 links:
-  - title: About
+  - title: Consulting
+    url: /consulting
+  - title: Custom solutions
+    url: /solutions
+  - title: Contact us
+    url: /contact
+  - title: About us
     url: /about
-  - title: Articles
+  - title: Blog
     url: /articles
   - title: Theme Setup
     url: /theme-setup
