@@ -2933,3 +2933,22 @@ img.mfp-img {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   
 }
+
+/* Drop down menu functionality */
+
+ul{margin:0 auto; padding:0; list-style:none;}
+.navigation{margin:0 auto; background:#fafafa; border-radius:5px; border-color:#ccc; border-style:solid; border-width:3px;}
+ul.menu {margin:0 auto; padding:0; list-style:none; position:relative;}
+ul.menu li{margin:0; padding:5px 10px; display:inline-block; }
+ul.menu li a{text-decoration:none; color:#666; display:block; }
+ul.menu li ul{display:none;}
+ul.menu li:hover ul{display:block; background:#fafafa; top:34px; position:absolute; padding:0 5px; border-radius:0 0 5px 5px; width:180px; border-color:#ccc; border-style:solid; border-width:0 3px 3px 3px;}
+ul.menu li ul li{padding:0px; display:block; padding-left:10px; border-bottom:1px solid #ccc; border-top:1px solid #fff;}
+ul.menu li ul li:first-child{border-top:none;}
+ul.menu li ul li:last-child{border-bottom:none;}
+ul.menu li ul li a{display:block; width:75%; font-size:12px; padding:5px 0;}
+
+#ontop {
+position:relative;
+z-index:1000;
+}
